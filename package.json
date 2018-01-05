@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "bash ./create.sh",
     "sample": "parcel src/sample/index.html",
-    "hoc-example": "parcel src/hoc-example/index.html"
+    "hoc-example": "parcel src/hoc-example/index.html",
+    "redux-example": "parcel src/redux-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2"
   }
 }
