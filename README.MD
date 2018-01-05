@@ -2,8 +2,18 @@
 A Collection of react experimets 😄
 
 
-## TODOS :alien:
-+ [ ] Higher Order Component Example :angel:
+## TODOS :alien: 🕒
++ [x] Higher Order Component Example :angel:
++ [ ] Redux example
 + [ ] React Redux Example :aerial_tramway:
++ [ ] React Router Redux
 + [ ] React - Redux - Firebase 🔥
-+ [ ] React Routes
++ [ ] Test with Jest
+
+
+## Creating New Projects 👶
+To create new playground micro projects inside src folder run the following bash script :apple:
+```bash
+    npm run create
+    
+```

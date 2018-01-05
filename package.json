@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "bash ./create.sh",
     "sample": "parcel src/sample/index.html",
     "hoc-example": "parcel src/hoc-example/index.html"
   },
