@@ -5,7 +5,8 @@ A Collection of react experimets 😄
 ## TODOS :alien: 🕒
 + [x] Higher Order Component Example :angel:
 + [x] Redux example :anger:
-+ [ ] React Redux Example :aerial_tramway:
++ [x] React Redux Example :aerial_tramway:
++ [x] React Redux Action Creators Example :aries:
 + [ ] React Router Redux
 + [ ] React - Redux - Firebase 🔥
 + [ ] Test with Jest :100:

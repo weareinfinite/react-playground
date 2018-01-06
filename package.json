@@ -8,7 +8,9 @@
     "create": "bash ./create.sh",
     "sample": "parcel src/sample/index.html",
     "hoc-example": "parcel src/hoc-example/index.html",
-    "redux-example": "parcel src/redux-example/index.html"
+    "redux-example": "parcel src/redux-example/index.html",
+    "react-redux-example": "parcel src/react-redux-example/index.html"
+    
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
     "redux": "^3.7.2"
   }
 }
