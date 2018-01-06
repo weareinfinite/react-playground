@@ -18,10 +18,10 @@ mkdir $PLAYGROUND_PATH
 
 # Copy Sample Files to Project Folder
 
-cp ./src/Sample/* $PLAYGROUND_PATH
+cp ./src/sample/* $PLAYGROUND_PATH
 
 # Success Message 
 
 echo 'Project Created Successfully !!!'
 echo "To run project : parcel src/$playground/index.html"
-echo -e "Append your package.json scritp section : \` $playground: parcel src/$playground/index.html\`"
+echo -e "Append your package.json scritp section : \` {$playground: \"parcel src/$playground/index.html\"}\`"
