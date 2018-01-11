@@ -3,13 +3,16 @@ A Collection of react experimets 😄
 
 
 ## TODOS :alien: 🕒
++ [x] Life cycle methods 😈
 + [x] Higher Order Component Example :angel:
 + [x] Redux example :anger:
 + [x] React Redux Example :aerial_tramway:
-+ [x] React Redux Action Creators Example :aries:
++ [ ] React Redux Action Creators Example :aries:
++ [ ] React Redux Thunk :accept:
 + [ ] React Router Redux
 + [ ] React - Redux - Firebase 🔥
 + [ ] Test with Jest :100:
++ [ ] React Transition Group Example
 
 ## Running Projects
 Projects are listed in package.json script section 
