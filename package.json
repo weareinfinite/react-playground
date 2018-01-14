@@ -10,7 +10,8 @@
     "lifecycle-methods-example": "parcel src/lifecycle-methods-example/index.html",
     "hoc-example": "parcel src/hoc-example/index.html",
     "redux-example": "parcel src/redux-example/index.html",
-    "react-redux-example": "parcel src/react-redux-example/index.html"
+    "react-redux-example": "parcel src/react-redux-example/index.html",
+    "react-redux-action-creator-example": "parcel src/react-redux-action-creator-example/index.html"
     
   },
   "repository": {
