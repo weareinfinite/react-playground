@@ -18,12 +18,12 @@ function mapStateToProps(state) {
     }
 }
 
-function mapDispatchToProps(dispatch) {
-    return {
-        increment: () => { dispatch(increment()) },
-        decrement: () => { dispatch(decrement()) }
-    }
-}
+// function mapDispatchToProps(dispatch) {
+//     return {
+//         increment: () => { dispatch(increment()) },
+//         decrement: () => { dispatch(decrement()) }
+//     }
+// }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+export default connect(mapStateToProps, {increment, decrement})(Counter);
 
