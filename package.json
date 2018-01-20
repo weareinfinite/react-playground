@@ -11,8 +11,8 @@
     "hoc-example": "parcel src/hoc-example/index.html",
     "redux-example": "parcel src/redux-example/index.html",
     "react-redux-example": "parcel src/react-redux-example/index.html",
-    "react-redux-action-creator-example": "parcel src/react-redux-action-creator-example/index.html"
-    
+    "react-redux-action-creator-example": "parcel src/react-redux-action-creator-example/index.html",
+    "react-redux-thunk-example": "parcel src/react-redux-thunk-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
   }
 }
