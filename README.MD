@@ -7,8 +7,8 @@ A Collection of react experimets 😄
 + [x] Higher Order Component Example :angel:
 + [x] Redux example :anger:
 + [x] React Redux Example :aerial_tramway:
-+ [ ] React Redux Action Creators Example :aries:
-+ [ ] React Redux Thunk :accept:
++ [x] React Redux Action Creators Example :aries:
++ [x] React Redux Thunk :accept:
 + [ ] React Router Redux
 + [ ] React - Redux - Firebase 🔥
 + [ ] Test with Jest :100:
