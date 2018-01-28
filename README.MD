@@ -9,6 +9,9 @@ A Collection of react experimets 😄
 + [x] React Redux Example :aerial_tramway:
 + [x] React Redux Action Creators Example :aries:
 + [x] React Redux Thunk :accept:
++ [ ] React Redux Ajax calls using axiom
++ [ ] React Router
++ [ ] React Router Protected Routes
 + [ ] React Router Redux
 + [ ] React - Redux - Firebase 🔥
 + [ ] Test with Jest :100:
