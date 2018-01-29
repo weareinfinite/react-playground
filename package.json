@@ -13,7 +13,8 @@
     "react-redux-example": "parcel src/react-redux-example/index.html",
     "react-redux-action-creator-example": "parcel src/react-redux-action-creator-example/index.html",
     "react-redux-thunk-example": "parcel src/react-redux-thunk-example/index.html",
-    "react-router-example": "parcel src/react-router-example/index.html"
+    "react-router-example": "parcel src/react-router-example/index.html",
+    "react-redux-axios-example": "parcel src/react-redux-axios-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -27,11 +28,13 @@
   },
   "homepage": "https://github.com/weareinfinite/react-playground#readme",
   "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.4.1"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
