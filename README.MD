@@ -28,8 +28,11 @@ npm run <script-name>
 npm run sample
 ``` 
 ## Creating New Projects 👶
-To create new playground micro projects inside src folder run the following bash script :apple:
+To create new playground (micro projects inside src folder) run the following bash script :apple:
 ```bash
     npm run create
     
 ```
+
+
+Build with all ❤️ in the world by Sarath ⚡️

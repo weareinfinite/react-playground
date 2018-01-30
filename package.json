@@ -37,6 +37,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "firebase": "^4.9.0",
+    "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",

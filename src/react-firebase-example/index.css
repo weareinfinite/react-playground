@@ -1,0 +1,22 @@
+body {
+    background-color: #555;
+}
+
+.todo-app {
+    width: 80%;
+    margin: 10px auto;
+}
+.todos {
+    
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+.todo-item {
+    padding: 5px;
+    background-color: #fff;
+    margin-bottom:  5px;
+    border-radius: 5px;
+}
