@@ -12,7 +12,7 @@ const App = () => (
             <h1>React Redux Axios Example</h1>
             <Counter/>
             <GithubProfile username="saratonite"/>
-            <GithubProfile username="JithinPS"/>
+
         </div>
     </Provider>
 )

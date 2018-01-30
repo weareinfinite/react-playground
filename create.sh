@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Input from user 
 read -p "Enter Project Name : " playground
@@ -24,4 +24,4 @@ cp ./src/sample/* $PLAYGROUND_PATH
 
 echo 'Project Created Successfully !!!'
 echo "To run project : parcel src/$playground/index.html"
-echo -e "Append your package.json scritp section : \` \" $playground\": \"parcel src/$playground/index.html\"\`"
+echo -e "Append your package.json scritp section :\` \"$playground\": \"parcel src/$playground/index.html\"\`"

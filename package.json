@@ -14,7 +14,8 @@
     "react-redux-action-creator-example": "parcel src/react-redux-action-creator-example/index.html",
     "react-redux-thunk-example": "parcel src/react-redux-thunk-example/index.html",
     "react-router-example": "parcel src/react-router-example/index.html",
-    "react-redux-axios-example": "parcel src/react-redux-axios-example/index.html"
+    "react-redux-axios-example": "parcel src/react-redux-axios-example/index.html",
+    "react-firebase-example": "parcel src/react-firebase-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "firebase": "^4.9.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",

@@ -9,7 +9,7 @@ A Collection of react experimets 😄
 + [x] React Redux Example :aerial_tramway:
 + [x] React Redux Action Creators Example :aries:
 + [x] React Redux Thunk :accept:
-+ [ ] React Redux Ajax calls using axios
++ [x] React Redux Ajax calls using axios
 + [x] React Router
 + [ ] React Router Protected Routes
 + [x] React + Friebase 🔥
