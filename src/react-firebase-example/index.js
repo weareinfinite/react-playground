@@ -14,8 +14,15 @@ class App extends React.Component {
         super(props)
 
         this.state = {
-            todos: []
+            todos: [],
+            newTodo:{
+                text: '',
+                completed: false
+            },
+            isloading: true
         }
+
+        this.inputChange = this.inputChange.bind(this);
     }
 
     componentDidMount() {
@@ -23,14 +30,34 @@ class App extends React.Component {
         todoRef.on('value', (snapshot) => {
 
             let _todos = mapObject(snapshot.val());
-            this.setState({todos: _todos});
+            this.setState({todos: _todos, isloading: false});
 
         })
     }
 
+    createTodo() {
+        todoRef.push(this.state.newTodo).then((d) => {
+            console.log('Yep')
+            this.setState({ newTodo: {text:"", completed: false}})
+        })
+    }
     updateTodo(todo) {
 
         todoRef.child(todo.id).set(todo);
+
+    }
+
+    removeTodo(todo) {
+
+        todoRef.child(todo.id).remove();
+
+    }
+
+    inputChange(e) {
+
+        let {newTodo} = this.state;
+        newTodo.text = e.target.value;
+        this.setState({newTodo: newTodo});
 
     }
 
@@ -42,6 +69,15 @@ class App extends React.Component {
         return (
             <div className="todo-app">
                 <h1>Sample  App</h1>
+                    <div>
+                        <input type="text" value={this.state.newTodo.text} onChange={this.inputChange}/>
+                        <button  onClick={(e) => {
+
+
+                            this.createTodo()
+
+                        }}>ADD</button>
+                    </div>  
                     <div className="todos">
                         { todos.map((td) => <div className="todo-item" key={td.id}>
                         
@@ -50,7 +86,11 @@ class App extends React.Component {
                                this.updateTodo(td)
 
                            }} />{td.text} : {td.completed ? 'Completed': 'Not Completed'}</label>
-                        
+                           <button className="todo-item__remove" onClick={(e) => {
+
+                               this.removeTodo(td);
+
+                           }}>&times;</button>
                         
                         </div>) }
                     </div>
