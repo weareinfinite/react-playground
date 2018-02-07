@@ -15,7 +15,8 @@
     "react-redux-thunk-example": "parcel src/react-redux-thunk-example/index.html",
     "react-router-example": "parcel src/react-router-example/index.html",
     "react-redux-axios-example": "parcel src/react-redux-axios-example/index.html",
-    "react-firebase-example": "parcel src/react-firebase-example/index.html"
+    "react-firebase-example": "parcel src/react-firebase-example/index.html",
+    "react-redux-firebase-example": "parcel src/react-redux-firebase-example/index.html"
   },
   "repository": {
     "type": "git",
