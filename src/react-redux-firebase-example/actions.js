@@ -12,3 +12,11 @@ export function getTodos() {
         })
     }
 }
+
+export function createTodo(todo) {
+    return (dispatch) => {
+        return todoRef.push(todo).then(()=>{
+            dispatch({type:"TODO_CREATED",palyload: true})
+        })
+    }
+}
