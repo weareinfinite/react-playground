@@ -11,10 +11,10 @@ A Collection of react experimets 😄
 + [x] React Redux Thunk :accept:
 + [x] React Redux Ajax calls using axios
 + [x] React Router
-+ [ ] React Router Protected Routes
++ [-] React Router Protected Routes
 + [x] React + Friebase 🔥
 + [ ] React Router Redux
-+ [ ] React - Redux - Firebase 🔥🔥
++ [x] React - Redux - Firebase 🔥🔥
 + [ ] Test with Jest :100:
 + [ ] React Transition Group Example
 
