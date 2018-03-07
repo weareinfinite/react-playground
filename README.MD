@@ -11,8 +11,9 @@ A Collection of react experimets 😄
 + [x] React Redux Thunk :accept:
 + [x] React Redux Ajax calls using axios
 + [x] React Router
-+ [-] React Router Protected Routes
++ [x] React Router Protected Routes
 + [x] React + Friebase 🔥
++ [x] React Router Custom Link
 + [ ] React Router Redux
 + [x] React - Redux - Firebase 🔥🔥
 + [ ] Test with Jest :100:
