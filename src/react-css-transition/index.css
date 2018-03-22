@@ -1,0 +1,55 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    max-width: 900px;
+    margin:00 auto;
+}
+.btn-add {
+    border: none;
+    font-size: 30px;
+    margin-bottom: 5px;
+    width:200px;
+    padding:3px;
+    background-color: cornflowerblue;
+}
+.item {
+    background-color: aliceblue;
+    padding:5px;
+    border-radius: 3px;
+    clear: both;
+    font-size: 28px;
+    margin-bottom: 5px;
+    min-height: 30px;
+}
+.item button {
+    float: right;
+    border: none;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-color: #f56;
+    color: antiquewhite;
+    font-weight: 800;
+    font-size: 25xp;
+    padding: 0;
+}
+.awesome-enter {
+    opacity: 0.01;
+    color: blue;
+  }
+  
+  .awesome-enter.awesome-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .awesome-leave {
+    opacity: 1;
+  }
+  
+  .awesome-leave.awesome-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }

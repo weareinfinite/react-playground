@@ -17,7 +17,7 @@ A Collection of react experimets 😄
 + [ ] React Router Redux
 + [x] React - Redux - Firebase 🔥🔥
 + [ ] Test with Jest :100:
-+ [ ] React Transition Group Example
++ [-] React CSS Transition Group Example :hotsprings: 
 
 ## Running Projects
 Projects are listed in package.json script section 
