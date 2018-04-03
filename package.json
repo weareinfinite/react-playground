@@ -19,7 +19,8 @@
     "react-redux-firebase-example": "parcel src/react-redux-firebase-example/index.html --open",
     "react-router-protected-route-example": "parcel src/react-router-protected-route-example/index.html --open",
     "react-router-custom-link-example": "parcel src/react-router-custom-link-example/index.html --open",
-    "react-css-transition": "parcel src/react-css-transition/index.html"
+    "react-css-transition": "parcel src/react-css-transition/index.html",
+    "conditionally-add-class-example": "parcel src/conditionally-add-class-example/index.html"
   },
   "repository": {
     "type": "git",
