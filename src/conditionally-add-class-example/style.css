@@ -1,11 +1,17 @@
 body {
     background: #666;
 }
-
+h1 {
+    transition: all .5s ease-in-out;
+}
 .red {
     color: red;
 }
 
 .blue {
     color: blue;
+}
+
+.alert {
+    background-color: bisque;
 }

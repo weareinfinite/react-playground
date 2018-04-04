@@ -18,7 +18,7 @@ A Collection of react experimets 😄
 + [x] React - Redux - Firebase 🔥🔥
 + [ ] Test with Jest :100:
 + [-] React CSS Transition Group Example :hotsprings:
-+ [ ] React Conditionally add class 
++ [x] React Conditionally add class 
 + [ ] Typechecking With PropTypes
 + [ ] Refs and dom
 
