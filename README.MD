@@ -17,10 +17,11 @@ A Collection of react experimets 😄
 + [ ] React Router Redux
 + [x] React - Redux - Firebase 🔥🔥
 + [ ] Test with Jest :100:
-+ [-] React CSS Transition Group Example :hotsprings:
++ [x] React CSS Transition Group Example :hotsprings:
 + [x] React Conditionally add class 
 + [ ] Typechecking With PropTypes
 + [ ] Refs and dom
++ [x] React Momentjs Example
 
 ## Running Projects
 Projects are listed in package.json script section 
