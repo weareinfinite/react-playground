@@ -19,7 +19,8 @@
     "react-redux-firebase-example": "parcel src/react-redux-firebase-example/index.html --open",
     "react-router-protected-route-example": "parcel src/react-router-protected-route-example/index.html --open",
     "react-router-custom-link-example": "parcel src/react-router-custom-link-example/index.html --open",
-    "react-css-transition": "parcel src/react-css-transition/index.html"
+    "react-css-transition": "parcel src/react-css-transition/index.html",
+    "popmotion-react-example": "parcel src/popmotion-react-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "firebase": "^4.9.0",
+    "popmotion-react": "^2.1.1",
     "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
     "react-addons-css-transition-group": "^15.6.2",
