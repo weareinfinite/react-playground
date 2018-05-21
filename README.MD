@@ -23,6 +23,8 @@ A Collection of react experimets 😄
 + [ ] Refs and dom
 + [x] React Momentjs Example
 + [x] React Router Transition Example
++ [x] React Popmotion Example
++ [x] React Pose Example
 
 ## Running Projects
 Projects are listed in package.json script section 
