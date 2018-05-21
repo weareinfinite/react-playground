@@ -24,7 +24,8 @@
     "react-moment-example": "parcel src/react-moment-example/index.html",
     "react-router-transition-example": "parcel src/react-router-transition-example/index.html",
     "popmotion-react-example": "parcel src/popmotion-react-example/index.html",
-    "react-pose-example": "parcel src/react-pose-example/index.html"
+    "react-pose-example": "parcel src/react-pose-example/index.html",
+    "tic-tac-toe-example": "parcel src/tic-tac-toe-example/index.html"
   },
   "repository": {
     "type": "git",
