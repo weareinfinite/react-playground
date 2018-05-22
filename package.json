@@ -25,7 +25,8 @@
     "react-router-transition-example": "parcel src/react-router-transition-example/index.html",
     "popmotion-react-example": "parcel src/popmotion-react-example/index.html",
     "react-pose-example": "parcel src/react-pose-example/index.html",
-    "tic-tac-toe-example": "parcel src/tic-tac-toe-example/index.html"
+    "tic-tac-toe-example": "parcel src/tic-tac-toe-example/index.html",
+    "react-ref-example": "parcel src/react-ref-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -59,6 +60,7 @@
     "react-router-dom": "^4.2.2",
     "react-transition-group": "^2.3.1",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "vanilla-tilt": "^1.4.1"
   }
 }
