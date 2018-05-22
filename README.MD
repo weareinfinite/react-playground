@@ -20,11 +20,12 @@ A Collection of react experimets 😄
 + [x] React CSS Transition Group Example :hotsprings:
 + [x] React Conditionally add class 
 + [ ] Typechecking With PropTypes
-+ [ ] Refs and dom
++ [x] Refs and dom
 + [x] React Momentjs Example
 + [x] React Router Transition Example
 + [x] React Popmotion Example
 + [x] React Pose Example
++ [x] Tic-Tac-Toe Example
 
 ## Running Projects
 Projects are listed in package.json script section 
