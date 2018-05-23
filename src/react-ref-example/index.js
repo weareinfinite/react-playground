@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 import { render } from 'react-dom';
 import VanillaTilt  from 'vanilla-tilt';
 
@@ -8,12 +8,13 @@ class Tilt extends React.Component {
 
     constructor(props) {
         super(props);
-        this.el = null;
+        this.el = createRef();
     }
 
     componentDidMount() {
 
-        VanillaTilt.init(this.el,{
+
+        VanillaTilt.init(this.el.current,{
             max: 25,
 		speed: 400
         })
@@ -23,7 +24,7 @@ class Tilt extends React.Component {
 
     render() {
         return(
-            <div ref={(e) => this.el = e} className="div-tilt">
+            <div ref={ this.el } className="div-tilt">
                 <div className="tilt-child">
                     <div {...this.props}/>
                 </div>
