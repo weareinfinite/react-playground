@@ -26,7 +26,8 @@
     "popmotion-react-example": "parcel src/popmotion-react-example/index.html",
     "react-pose-example": "parcel src/react-pose-example/index.html",
     "tic-tac-toe-example": "parcel src/tic-tac-toe-example/index.html",
-    "react-ref-example": "parcel src/react-ref-example/index.html"
+    "react-ref-example": "parcel src/react-ref-example/index.html",
+    "react-proptypes-example": "parcel src/react-proptypes-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -52,6 +53,7 @@
     "moment": "^2.22.1",
     "popmotion-react": "^2.1.1",
     "postcss-modules": "^1.1.0",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.3.2",
