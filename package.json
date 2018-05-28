@@ -27,7 +27,8 @@
     "react-pose-example": "parcel src/react-pose-example/index.html",
     "tic-tac-toe-example": "parcel src/tic-tac-toe-example/index.html",
     "react-ref-example": "parcel src/react-ref-example/index.html",
-    "react-proptypes-example": "parcel src/react-proptypes-example/index.html"
+    "react-proptypes-example": "parcel src/react-proptypes-example/index.html",
+    "react-modal-example": "parcel src/react-modal-example/index.html"
   },
   "repository": {
     "type": "git",

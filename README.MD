@@ -19,13 +19,14 @@ A Collection of react experimets 😄
 + [ ] Test with Jest :100:
 + [x] React CSS Transition Group Example :hotsprings:
 + [x] React Conditionally add class 
-+ [ ] Typechecking With PropTypes
++ [x] Typechecking With PropTypes
 + [x] Refs and dom
 + [x] React Momentjs Example
 + [x] React Router Transition Example
 + [x] React Popmotion Example
 + [x] React Pose Example
 + [x] Tic-Tac-Toe Example
++ [ ] React modal example
 
 ## Running Projects
 Projects are listed in package.json script section 
