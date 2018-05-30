@@ -28,7 +28,8 @@
     "tic-tac-toe-example": "parcel src/tic-tac-toe-example/index.html",
     "react-ref-example": "parcel src/react-ref-example/index.html",
     "react-proptypes-example": "parcel src/react-proptypes-example/index.html",
-    "react-modal-example": "parcel src/react-modal-example/index.html"
+    "react-modal-example": "parcel src/react-modal-example/index.html",
+    "styled-components-example": "parcel src/styled-components-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -64,6 +65,7 @@
     "react-transition-group": "^2.3.1",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
+    "styled-components": "^3.3.0",
     "vanilla-tilt": "^1.4.1"
   }
 }

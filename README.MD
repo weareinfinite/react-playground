@@ -26,7 +26,8 @@ A Collection of react experimets 😄
 + [x] React Popmotion Example
 + [x] React Pose Example
 + [x] Tic-Tac-Toe Example
-+ [ ] React modal example
++ [x] React modal example
++ [x] Styled Components Example
 
 ## Running Projects
 Projects are listed in package.json script section 
