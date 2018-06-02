@@ -29,7 +29,8 @@
     "react-ref-example": "parcel src/react-ref-example/index.html",
     "react-proptypes-example": "parcel src/react-proptypes-example/index.html",
     "react-modal-example": "parcel src/react-modal-example/index.html",
-    "styled-components-example": "parcel src/styled-components-example/index.html"
+    "styled-components-example": "parcel src/styled-components-example/index.html",
+    "react-file-upload": "parcel src/react-file-upload/index.html"
   },
   "repository": {
     "type": "git",
