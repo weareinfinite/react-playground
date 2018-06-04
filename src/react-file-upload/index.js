@@ -2,6 +2,8 @@ import React from 'react';
 import { render } from 'react-dom';
 import axios from 'axios';
 
+import {  storage } from '../shared/firebase';
+
 class App extends React.Component {
 
     constructor(props) {
@@ -25,12 +27,12 @@ class App extends React.Component {
 
         console.log(this.state.selectedFile)
 
-        let fd = new FormData();
-        fd.append('image', this.state.selectedFile, this.state.selectedFile.name);
 
-        axios.post('/upload', fd)
-            .then(res => console.log('File uploaded'))
-            .catch(err => console.log('ERROR -> ', err));
+        let uploadRef = storage.ref(`playground_uploads/${this.state.selectedFile.name}`);
+        let uploadTask = uploadRef.put(this.state.selectedFile);
+        uploadTask.on('state_changed', (e) => {
+            console.log(e)
+        })
 
     }
 
