@@ -34,7 +34,8 @@
     "audio-viz": "parcel src/audio-viz/index.html",
     "svg-in-react-example": "parcel src/svg-in-react-example/index.html",
     "jest-example": "parcel src/jest-example/index.html",
-    "jest-example:test":"jest"
+    "jest-example:test": "jest",
+    "redux-form-example": "parcel src/redux-form-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -72,6 +73,7 @@
     "react-test-renderer": "^16.4.1",
     "react-transition-group": "^2.3.1",
     "redux": "^3.7.2",
+    "redux-form": "^7.4.2",
     "redux-thunk": "^2.2.0",
     "styled-components": "^3.3.0",
     "vanilla-tilt": "^1.4.1"
