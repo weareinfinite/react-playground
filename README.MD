@@ -28,6 +28,8 @@ A Collection of react experimets 😄
 + [x] Tic-Tac-Toe Example
 + [x] React modal example
 + [x] Styled Components Example
++ [x] React SVG Example
++ [ ] Redux Form :8ball:
 
 ## Running Projects
 Projects are listed in package.json script section 

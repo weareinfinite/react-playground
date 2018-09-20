@@ -31,7 +31,11 @@
     "react-modal-example": "parcel src/react-modal-example/index.html",
     "styled-components-example": "parcel src/styled-components-example/index.html",
     "react-file-upload": "parcel src/react-file-upload/index.html",
-    "audio-viz": "parcel src/audio-viz/index.html"
+    "audio-viz": "parcel src/audio-viz/index.html",
+    "svg-in-react-example": "parcel src/svg-in-react-example/index.html",
+    "jest-example": "parcel src/jest-example/index.html",
+    "jest-example:test": "jest",
+    "redux-form-example": "parcel src/redux-form-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -48,10 +52,12 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "jest": "^23.3.0",
     "parcel-bundler": "^1.4.1"
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "babel-jest": "^23.4.0",
     "classnames": "^2.2.5",
     "firebase": "^4.9.0",
     "moment": "^2.22.1",
@@ -64,8 +70,10 @@
     "react-pose": "^1.6.4",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
+    "react-test-renderer": "^16.4.1",
     "react-transition-group": "^2.3.1",
     "redux": "^3.7.2",
+    "redux-form": "^7.4.2",
     "redux-thunk": "^2.2.0",
     "styled-components": "^3.3.0",
     "vanilla-tilt": "^1.4.1"
