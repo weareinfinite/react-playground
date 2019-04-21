@@ -30,6 +30,7 @@ A Collection of react experimets 😄
 + [x] Styled Components Example
 + [x] React SVG Example
 + [ ] Redux Form :8ball:
++ [ ] Form Validation with Formik
 
 ## Running Projects
 Projects are listed in package.json script section 
