@@ -36,7 +36,8 @@
     "jest-example": "parcel src/jest-example/index.html",
     "jest-example:test": "jest",
     "redux-form-example": "parcel src/redux-form-example/index.html",
-    "formik-example": "parcel src/formik-example/index.html"
+    "formik-example": "parcel src/formik-example/index.html",
+    "render-props-example": "parcel src/render-props-example/index.html"
   },
   "repository": {
     "type": "git",
