@@ -37,7 +37,8 @@
     "jest-example:test": "jest",
     "redux-form-example": "parcel src/redux-form-example/index.html",
     "formik-example": "parcel src/formik-example/index.html",
-    "render-props-example": "parcel src/render-props-example/index.html"
+    "render-props-example": "parcel src/render-props-example/index.html",
+    "react-context-example": "parcel src/react-context-example/index.html"
   },
   "repository": {
     "type": "git",
@@ -68,9 +69,9 @@
     "popmotion-react": "^2.1.1",
     "postcss-modules": "^1.1.0",
     "prop-types": "^15.6.1",
-    "react": "^16.3.2",
+    "react": "^16.8.6",
     "react-addons-css-transition-group": "^15.6.2",
-    "react-dom": "^16.3.2",
+    "react-dom": "^16.8.6",
     "react-pose": "^1.6.4",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
