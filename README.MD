@@ -29,8 +29,9 @@ A Collection of react experimets 😄
 + [x] React modal example
 + [x] Styled Components Example
 + [x] React SVG Example
-+ [ ] Redux Form :8ball:
-+ [ ] Form Validation with Formik
++ [x] Form Validation with Formik
++ [ ] React Context 
++ [ ] React useSate
 
 ## Running Projects
 Projects are listed in package.json script section 
