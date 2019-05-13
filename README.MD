@@ -30,11 +30,11 @@ A Collection of react experimets 😄
 + [x] Styled Components Example
 + [x] React SVG Example
 + [x] Form Validation with Formik
-+ [ ] React Context 
-+ [ ] React useSate
-
-## Running Projects
-Projects are listed in package.json script section 
++ [x] React Context 
++ [x] React useSate
++ [ ] React useContext
++ [ ] React useMemo
++ [ ] React useRef
 ```bash
 npm run <script-name>
 ```
