@@ -54,12 +54,13 @@
   },
   "homepage": "https://github.com/weareinfinite/react-playground#readme",
   "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
     "jest": "^23.3.0",
     "node-sass": "^4.11.0",
-    "parcel-bundler": "^1.4.1"
+    "parcel-bundler": "latest"
   },
   "dependencies": {
     "axios": "^0.17.1",
@@ -71,9 +72,9 @@
     "popmotion-react": "^2.1.1",
     "postcss-modules": "^1.1.0",
     "prop-types": "^15.6.1",
-    "react": "^16.8.6",
+    "react": "latest",
     "react-addons-css-transition-group": "^15.6.2",
-    "react-dom": "^16.8.6",
+    "react-dom": "latest",
     "react-pose": "^1.6.4",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
